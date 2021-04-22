@@ -1,0 +1,36 @@
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+
+  .logo-container {
+    height: 100%;
+    width: 70px;
+    padding: 20px;
+  }
+  .logo {
+    width: 120%;
+    height: 110%;
+    margin-top: -3rem;
+  }
+  .options {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 1.4rem;
+
+    .option {
+      padding: 10px 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .options {
+    width: 10%;
+  }
+}
