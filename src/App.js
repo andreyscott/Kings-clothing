@@ -4,6 +4,8 @@ import Header from './components/header/header';
 import Homepage from './pages/homepage/homepage.jsx';
 import SignInAndSignUpPage from './pages/sign-in_and_sign-up/sign-in_and_sign-up';
 import ShopPage from './pages/shop/shop.jsx';
+
+
 import './App.css';
 
 
