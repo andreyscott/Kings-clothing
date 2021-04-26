@@ -9,6 +9,7 @@ export const HeroSection = styled.section`
     max-height:1100px;
     position: relative;
     overflow: hidden;
+    left: -53px;
 `
 
 export const HeroWrapper = styled.div`
@@ -61,7 +62,7 @@ export const HeroImage = styled.img `
     left: 0;
     width: 100vw;
     height: 100vh;
-    object-fit: cover;
+    object-fit: fill;
 `;
 
 export const HeroContent = styled.div `
@@ -100,11 +101,11 @@ export const SliderButtons = styled.div`
 `
 
 export const arrowButtons = css`
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     color: #fff;
     cursor: pointer;
-    background: #000d1a;
+    background: #0ccac4;
     border-radius: 50px;
     padding: 10px;
     margin-right: 1rem;
@@ -112,7 +113,7 @@ export const arrowButtons = css`
     transition: 0.3s;
 
     &:hover {
-        background: #cd853f;
+        background: rgba(7, 27, 82, 1) 0%;
         transform: scale(1.05);
     }
 `;

@@ -7,48 +7,48 @@ import ImageSix from '../images/img7.jpg'
 
 export const SliderData = [
     {
-        title: "Luxury Villa in Bali, Indonesia",
-        price: "$4,280,000",
+        title: "Leather Jacket",
+        price: "$428",
         path: "/homes",
         label: "View Home",
         image: ImageOne,
         alt: "House"
     },
     {
-        title: "House in San Jose, Costa Rica",
-        price: "$2,860,000",
+        title: "Stylish Set",
+        price: "$2860",
         path: "/homes",
         label: "View Home",
         image: ImageTwo,
         alt: "House"
     },
     {
-        title: "House in Calabasas, California",
-        price: "$8,420,000",
+        title: "Summer Hats",
+        price: "$857",
         path: "/homes",
         label: "View Home",
         image: ImageThree,
         alt: "House"
     },
     {
-        title: "House in Houston, Texas",
-        price: "$6,450,000",
+        title: "Magic Looks",
+        price: "$645",
         path: "/homes",
         label: "View Home",
         image: ImageFour,
         alt: "House"
     },
     {
-        title: "House in Houston, Texas",
-        price: "$6,450,000",
+        title: "White Fur Coat",
+        price: "$450",
         path: "/homes",
         label: "View Home",
         image: ImageFive,
         alt: "House"
     },
     {
-        title: "House in Houston, Texas",
-        price: "$6,450,000",
+        title: "updates",
+        price: "$203",
         path: "/homes",
         label: "View Home",
         image: ImageSix,
