@@ -8,10 +8,16 @@ import { ReactComponent as Logo } from '../../assets/prestige.svg';
 
 import './header.scss';
 
+const logo = {
+    width: '150%',
+    height: '120%',
+    marginTop: '-1rem'
+}
+
 const Header = ({ currentUser }) => (
     <div className='header'>
         <Link className='logo-container' to='/'>
-       <Logo className='logo' />
+       <Logo style={logo} />
         </Link>
         <div className='options'>
             <Link className='options' to='/shop' >
