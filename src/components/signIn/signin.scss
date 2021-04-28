@@ -1,11 +1,8 @@
-* {
-  box-sizing: border-box;
-}
-
 .sign-in {
   width: 380px;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
 
   .title {
     margin: 10px 0;
