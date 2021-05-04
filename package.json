@@ -15,6 +15,9 @@
     "react-scripts": "^4.0.3",
     "react-slideshow-image": "^3.4.6",
     "styled-components": "^5.2.3",
+    "redux": "4.0.1",
+    "redux-logger": "3.0.6",
+    "react-redux": "7.0.3",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
