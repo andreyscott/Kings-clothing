@@ -19,7 +19,7 @@ const logo = {
     marginTop: '-1rem'
 }
 
-const Header = ({ currentUser }) => (
+const Header = ({ currentUser, hidden }) => (
     <div className='header'>
         <Link className='logo-container' to='/'>
        <Logo style={logo} />
@@ -42,12 +42,27 @@ const Header = ({ currentUser }) => (
                 )}
                 <CartIcon />
         </div>
-        <CartDropdown />
+       {
+            hidden ? null : <CartDropdown />
+       }
     </div>
 );
 
-const mapsToStateProps = (state) => ({
-    currentUser: state.user.currentUser
+const mapsToStateProps = ({ user: {currentUser }, cart: { hidden } }) => ({
+    currentUser,
+    hidden
 })
 
 export default connect(mapsToStateProps)(Header);
+
+
+
+
+
+
+
+
+
+
+
+
