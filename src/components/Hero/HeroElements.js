@@ -63,6 +63,7 @@ export const HeroImage = styled.img `
     width: 100vw;
     height: 100vh;
     object-fit: fill;
+    *zoom: 0;
 `;
 
 export const HeroContent = styled.div `
