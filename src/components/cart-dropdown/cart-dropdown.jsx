@@ -1,5 +1,5 @@
 import React from 'react';
-import { connect } from 'react-redux';asd
+import { connect } from 'react-redux';
 
 import CustomButton from '../custom-button/button';
 import CartItem from '../cart-item/cart-item';
