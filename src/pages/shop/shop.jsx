@@ -2,8 +2,6 @@ import React from 'react';
 import SHOP_DATA from './shop.data';
 import ImageSlider from '../../components/ImageSlider/index';
 
-//  import { SliderData } from '../../data/SliderData';
-// import Hero from '../../components/Hero/index';
 
 import CollectionPreview from '../../components/collection-preview/collection-preview';
 
@@ -23,7 +21,6 @@ class ShopPage extends React.Component {
         return ( 
             <div className='shop'>
                  <div className='shop-page'>
-            {/* <Hero slides={SliderData} /> */}
             <ImageSlider />
          {Collection.map(({ id, ...otherCollectionProps}) => (
              <CollectionPreview key={id} {...otherCollectionProps} />
