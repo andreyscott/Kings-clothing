@@ -6,14 +6,9 @@
   flex-direction: column;
   padding: 20px;
   border: 1px solid black;
-  //create a gradient background color for the dropdown using blue color variations
-  background: linear-gradient(
-    to bottom,
-    rgba(236, 233, 233, 0.1) 25%,
-    rgba(0, 0, 0, 0.5) 75%
-  );
-
   top: 90px;
+  //make the background color of the dropdown white and  slightly transparent;
+  background-color: rgba(255, 255, 255, 0.5);
   right: 0;
   z-index: 5;
 
@@ -22,6 +17,7 @@
     display: flex;
     flex-direction: column;
     overflow: scroll;
+    overflow-x: hidden;
   }
 
   button {

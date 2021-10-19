@@ -11,7 +11,7 @@ import './dropdown.scss';
 const CartDropdown = ({ cartItems}) => (
     <div className='cart-dropdown'>
       <div className='cart-items'>
-        {cartItems.map((cartItem, id) => (
+        {cartItems.map(cartItem => (
           <CartItem key={cartItem.id} item={cartItem} />
         ))}
       </div>
