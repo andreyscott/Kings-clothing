@@ -20,6 +20,7 @@
     "react-slideshow-image": "^3.4.6",
     "redux": "4.0.1",
     "redux-logger": "3.0.6",
+    "redux-persist": "^6.0.0",
     "reselect": "4.0.0",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.2.3",
@@ -50,4 +51,3 @@
     ]
   }
 }
-

@@ -8,7 +8,7 @@
   align-items: center;
 
   .image-container {
-    width: 23%;
+    width: 21%;
     padding-right: 15px;
 
     img {
@@ -16,10 +16,13 @@
       height: 100%;
     }
   }
-  .name,
-  .quantity,
-  .price {
+
+  .quantity {
     width: 23%;
+  }
+  .name,
+  .price {
+    width: 11%;
   }
 
   .quantity {
