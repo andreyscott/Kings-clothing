@@ -8,25 +8,33 @@
   align-items: center;
 
   .image-container {
-    width: 21%;
+    width: 23%;
     padding-right: 15px;
 
     img {
-      width: 100%;
+      width: 90%;
       height: 100%;
     }
   }
-
-  .quantity {
+  .name,
+  .quantity,
+  .price {
     width: 23%;
   }
-  .name,
-  .price {
-    width: 11%;
-  }
 
   .quantity {
-    padding-left: 20px;
+    display: flex;
+    .arrow {
+      cursor: pointer;
+    }
+    .value {
+      margin: 0 10px;
+    }
+  }
+
+  #w1,
+  #w2 {
+    margin-bottom: 0.8rem;
   }
 
   .remove-button {
