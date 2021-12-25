@@ -19,6 +19,7 @@
     "react-scripts": "^4.0.3",
     "react-slick": "^0.28.1",
     "react-slideshow-image": "^3.4.6",
+    "react-stripe-checkout": "2.6.3",
     "redux": "4.0.1",
     "redux-logger": "3.0.6",
     "redux-persist": "^6.0.0",
