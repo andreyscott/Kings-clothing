@@ -10,7 +10,7 @@ import './index.css';
 import App from './App';
 
 ReactDOM.render(
-  <Provider store={store}>s
+  <Provider store={store}>
     <BrowserRouter>
       <PersistGate persistor={persistor}>
         <App />
