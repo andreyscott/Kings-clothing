@@ -70,7 +70,7 @@ export const sliderImages = [
   {
     id: "1",
     textImage:
-      "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F33AA99395CB84E547F8D4ED40D9328D48201FEAF1EF431E4EF3C2F7509A6D09/scale?width=1440&aspectRatio=3.91",
+      "https://images.unsplash.com/photo-1543761048-9227e7a698c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fGhvb2RpZXN8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
     url:
       "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/83363D03F4F637E001C0FF3BE7AE5B6461E498E1673A2EB944276D6399263C01/scale?width=1440&aspectRatio=3.91&format=jpeg",
   },
