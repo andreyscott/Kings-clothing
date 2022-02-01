@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Unfinshed but you can check it out on 👉[love](https://kings-clothing-6b3ca.web.app/
 
 ## Available Scripts
 
