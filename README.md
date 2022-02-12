@@ -1,6 +1,9 @@
 # Getting Started with Create React App
 
-Unfinshed but you can check it out on 👉[love](https://kings-clothing-6b3ca.web.app/
+[GitHub Workflow Status](https://img.shields.io/github/workflow/status/andreyscott/R_formTemplate/master?label=GitHub%20Workflow%20Status&logo=github&style=for-the-badge)
+[![Twitter Follow](https://img.shields.io/twitter/follow/andreyscott5?style=social)](https://twitter.com/andreyscott5)
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
