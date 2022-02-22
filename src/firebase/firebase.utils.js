@@ -3,13 +3,14 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config = {
-  apiKey: 'AIzaSyCdHT-AYHXjF7wOrfAchX4PIm3cSj5tn14',
-  authDomain: 'crwn-db.firebaseapp.com',
-  databaseURL: 'https://crwn-db.firebaseio.com',
-  projectId: 'crwn-db',
-  storageBucket: 'crwn-db.appspot.com',
-  messagingSenderId: '850995411664',
-  appId: '1:850995411664:web:7ddc01d597846f65'
+  apiKey: "AIzaSyA4cf2N5wm64GspSuh2DaPiGGidfJu2XfU",
+  authDomain: "kings-clothing-6b3ca.firebaseapp.com",
+  databaseURL: "https://kings-clothing-6b3ca-default-rtdb.firebaseio.com",
+  projectId: "kings-clothing-6b3ca",
+  storageBucket: "kings-clothing-6b3ca.appspot.com",
+  messagingSenderId: "151239121536",
+  appId: "1:151239121536:web:91e89d5692a64fe6a2e465",
+  measurementId: "G-74ZDLRNQPH"
 };
 
 firebase.initializeApp(config);
@@ -53,6 +54,24 @@ export const addCollectionAndDocuments = async (collectionKey, objectsToadd) => 
   });
   return await batch.commit();
 
+};
+
+export const convertCollectionsSnapshotToMap = collections => {
+  const transformedCollection = collections.docs.map(doc => {
+    const { title, items } = doc.data();
+
+    return {
+      routeName: encodeURI(title.toLowerCase()),
+      id: doc.id,
+      title,
+      items
+    }
+  })
+
+    return transformedCollection.reduce((accumulator, collection) => {
+      accumulator[collection.title.toLowerCase()] = collection;
+      return accumulator;
+    }, {});
 }
 export const auth = firebase.auth();
 export const firestore = firebase.firestore();
